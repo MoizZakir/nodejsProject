@@ -114,12 +114,5 @@ const authHome=(req,res)=>{
         message:'Home winodow'
     })
 }
-const userdata=(req,res)=>{
-    res.json({
-        status:true,
-        data:'cds'
-    })
-        
-       
-}
-export{authHome,authLogin,authsignup,authForgetPassword,userdata}
+
+export{authHome,authLogin,authsignup,authForgetPassword}
